@@ -5,10 +5,7 @@
 
 .footer-list {
   display: flex;
-}
-
-.footer-list-item:not(:last-child) {
-  margin-right: 70px;
+  justify-content: space-between;
 }
 
 .footer .logo {

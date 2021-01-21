@@ -206,12 +206,12 @@ body {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   color: #212121;
 }
 
 .modal-form-list-item:not(:last-child) {
-  padding-bottom: 10px;
+  padding-bottom: 6px;
 }
 
 .modal-form-list-item:last-child {
@@ -344,12 +344,12 @@ body {
   content: '';
   margin-right: 8px;
   padding: auto;
-  background-image: url("/images/icon-check-empty.svg");
+  background-image: url("../images/icon-check-empty.svg");
   cursor: pointer;
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
-  background-image: url("/images/icon-check.svg");
+  background-image: url("../images/icon-check.svg");
 }
 
 .modal .modal-form-policy-link {
@@ -754,10 +754,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer-list-item:not(:last-child) {
-  margin-right: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer .logo {
