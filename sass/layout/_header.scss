@@ -10,7 +10,7 @@
 }
 
 .header .logo {
-  color: var(--acent-color);
+  color: var(--dark-color);
 }
 
 .nav {
@@ -21,6 +21,7 @@
 .nav-list {
   display: flex;
   align-items: center;
+  margin-left: 95px;
 }
 
 .nav-list-link {

@@ -152,7 +152,10 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  margin-right: 95px;
+}
+
+.logo-acent {
+  color: #2196f3;
 }
 
 .backdrop {
@@ -386,7 +389,7 @@ body {
 }
 
 .header .logo {
-  color: var(--acent-color);
+  color: var(--dark-color);
 }
 
 .nav {
@@ -405,6 +408,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 95px;
 }
 
 .nav-list-link {
@@ -761,6 +765,10 @@ body {
 
 .footer .logo {
   color: var(--white-color);
+}
+
+.footer-address {
+  margin-top: 20px;
 }
 
 .footer-adr-list-item-link-map {
